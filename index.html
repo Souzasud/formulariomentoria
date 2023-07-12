@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Mentoria</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>MENTORIA</h1>
+      <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+    </header>
+
+    <form id="my-form">
+
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Informações Pessoais</legend><hr />
+        
+          <div class="page1">   
+
+          <div class="input-wrapper">
+            <label for="event-name">Nome</label>
+            <input type="text" id="event-name"/>
+          </div>
+
+          <div class="input-wrapper1">
+            <label for="event-surname">Sobrenome</label>
+            <input type="text" id="event-surname" />
+            </div>
+
+          </fieldset>
+
+          <fieldset>
+
+          <div class="page2">
+              
+          <div class="input-wrapper2">
+            <label for="event-email">Email <span>(digite um email válido)</span></label>
+            <input type="email" id="event-email" required />
+            </div>
+
+          <div class="input-wrapper3">
+            <label for="event-password">Senha <span>(máximo de 6 caracteres)</span></label>
+            <input type="password" id="event-password" maxlength="6" required/>
+          </div>
+          </fieldset>
+
+          <fieldset>   
+          <div class="fieldset-wrapper4">
+            <legend>Informações do Mentor</legend><hr />     
+            
+          <div class="input-wrapper5">
+            <label for="event-name">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+            <input type="name" id="event-name"/>
+          </div>
+          </fieldset>
+
+          <fieldset>
+            <div class="fieldset-wrapper4">
+              <legend>Seus Horários Disponíveis</legend><hr />
+              
+              <div class="mentoria1">
+              <legend>Primeira Mentoria</legend>              
+
+              <div class="col-3">               
+                <div class="input-wrapper6">
+                  <label for="event-date">Data</label>
+                  <input type="date" id="event-date"/>
+                </div>
+
+                <div class="input-wrapper6">
+                  <label for="event-begin">Das</label>
+                  <input type="time" id="event-begin"/>
+                </div>
+
+                <div class="input-wrapper6">
+                  <label for="event-and">Até</label>
+                  <input type="time" id="event-and"/>
+                </div>
+              </div> 
+          </fieldset>
+
+          <fieldset>
+            <fieldset>
+              <div class="fieldset-wrapper4">               
+                
+                <div class="mentoria1">
+                <legend>Segunda Mentoria</legend>              
+  
+                <div class="col-3">               
+                  <div class="input-wrapper6">
+                    <label for="event-date">Data</label>
+                    <input type="date" id="event-date"/>
+                  </div>
+  
+                  <div class="input-wrapper6">
+                    <label for="event-begin">Das</label>
+                    <input type="time" id="event-begin"/>
+                  </div>
+  
+                  <div class="input-wrapper6">
+                    <label for="event-and">Até</label>
+                    <input type="time" id="event-and"/>
+                  </div>
+                </div> 
+            </fieldset>
+          
+          
+          </form>
+          <footer>
+            <button class="button" form="my-form"><span>
+              Salvar </span>
+            </button>
+          </footer>
+
+
+
+
+</body>
+
+</html>
